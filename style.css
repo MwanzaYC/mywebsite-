@@ -1,0 +1,56 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  background-color: #f0f4f8;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Heading style */
+h1 {
+  font-size: 2.5em;
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+/* Paragraph style */
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* Button style (if you add one later) */
+button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
+.dark-mode {
+  background-color: #222;
+  color: #f0f0f0;
+}
